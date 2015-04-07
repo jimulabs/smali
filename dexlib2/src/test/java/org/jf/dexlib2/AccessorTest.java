@@ -42,6 +42,7 @@ import org.jf.dexlib2.iface.instruction.ReferenceInstruction;
 import org.jf.dexlib2.iface.reference.FieldReference;
 import org.jf.dexlib2.iface.reference.MethodReference;
 import org.jf.dexlib2.util.SyntheticAccessorResolver;
+import org.junit.Ignore;
 import org.junit.Test;
 
 import java.io.IOException;
@@ -75,6 +76,7 @@ public class AccessorTest {
         operationTypes = builder.build();
     }
 
+    @Ignore
     @Test
     public void testAccessors() throws IOException {
         URL url = AccessorTest.class.getClassLoader().getResource("accessorTest.dex");

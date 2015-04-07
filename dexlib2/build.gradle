@@ -41,7 +41,7 @@ dependencies {
 
     testCompile depends.junit
 
-//    accessorTestGenerator project('accessorTestGenerator')
+    accessorTestGenerator project('accessorTestGenerator')
 
     dx depends.dx
 }

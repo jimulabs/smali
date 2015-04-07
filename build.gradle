@@ -170,7 +170,7 @@ subprojects {
             }
         }
 
-        tasks.getByPath(':release').dependsOn(uploadArchives)
+//        tasks.getByPath(':release').dependsOn(uploadArchives)
     }
 }
 

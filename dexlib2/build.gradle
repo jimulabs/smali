@@ -35,13 +35,13 @@ configurations {
 }
 
 dependencies {
-    compile project(':util')
+    compile project(':smali:util')
     compile depends.findbugs
     compile depends.guava
 
     testCompile depends.junit
 
-    accessorTestGenerator project('accessorTestGenerator')
+//    accessorTestGenerator project('accessorTestGenerator')
 
     dx depends.dx
 }
